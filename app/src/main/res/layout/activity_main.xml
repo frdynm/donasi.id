@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#f9fafc">
+    <RelativeLayout
+        android:background="#364660"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/Tv_donasi_main"
+            android:layout_marginStart="150dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:textSize="25dp"
+            android:text="Donasi.id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            android:layout_below="@id/Tv_donasi_main"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:textColor="#FFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayo berdonasi untuk meringankan beban mereka "/>
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="50dp"
+            android:layout_below="@id/Tv_donasi_main"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:textColor="#FFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hadist"/>
+    </RelativeLayout>
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:padding="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orang"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="130dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumbangan Haji untuk Bangsa"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="220dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:padding="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orang"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="130dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sembako orang missQueen"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="290dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:padding="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orang"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="130dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan medis untuk Bencana"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="220dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="290dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:padding="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orang"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="130dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan kesehatan negara"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="460dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:padding="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orang"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="130dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan biaya persalinan"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginStart="220dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="460dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:padding="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orang"/>
+        <TextView
+            android:layout_marginStart="4dp"
+            android:textStyle="bold"
+            android:layout_marginTop="130dp"
+            android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan untuk orangtua tunggal"/>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
