@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrasiActivity"
+    android:background="#364660">
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/TV_donasi.id"
+        android:layout_marginStart="120dp"
+        android:textStyle="bold"
+        android:textColor="#FFFF"
+        android:textSize="45dp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donasi.id"/>
+
+    <View
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="300dp"
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:background="#FFFF"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/icon_orang"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/TV_donasi.id"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/orang" />
+
+    <EditText
+        android:textColorHint="#FFF"
+        android:textColor="#FFFF"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TV_donasi.id"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="45dp"
+        android:hint="Masukan Nama "
+        android:src="@drawable/orang" />
+    <View
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="360dp"
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:background="#FFFF"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/icon_orang"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/orang" />
+
+    <EditText
+        android:textColorHint="#FFF"
+        android:textColor="#FFFF"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TV_donasi.id"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="101dp"
+        android:hint="Masukan Email"
+        android:src="@drawable/orang" />
+    <View
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="410dp"
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:background="#FFFF"
+        android:visibility="visible" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/icon_orang"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/orang" />
+    <EditText
+        android:textColorHint="#FFF"
+        android:textColor="#FFFF"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TV_donasi.id"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="150dp"
+        android:hint="Masukan Password"
+        android:src="@drawable/orang" />
+    <View
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="460dp"
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:background="#FFFF"
+        android:visibility="visible" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/icon_orang"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/orang" />
+    <EditText
+
+        android:textColorHint="#FFF"
+        android:textColor="#FFFF"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TV_donasi.id"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="200dp"
+        android:hint=" Masukan Alamat"
+        android:src="@drawable/orang" />
+    <View
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="510dp"
+        android:layout_width="300dp"
+        android:layout_height="0.1dp"
+        android:background="#FFFF"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/Btn_Login"
+        android:textColor="#FFFF"
+        android:text="Daftar"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="300dp"
+        android:layout_below="@+id/TV_donasi.id"
+        android:background="#02BFF2"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
